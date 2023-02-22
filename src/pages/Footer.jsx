@@ -8,13 +8,14 @@ margin-top: 10px;
     width: 790px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #0099CC;
+    background-color: #212529;
+    color:white;
 `
 
 const Footer = () => {
   return (
     <Footerbody>
-      <h1>this is footer</h1>
+      <h1>Copyright@2023 All Rights Reserved</h1>
     </Footerbody>
   )
 }
