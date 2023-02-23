@@ -31,7 +31,7 @@ const Subadminlist = () => {
   return (
     <TotalBox>
 
-      <h1 className="text-center">Sub-Admin List  </h1>
+      <h1 className="text-center bg-dark text-white-50">Sub-Admin List  </h1>
 
       <Table striped bordered hover variant="dark" size="sm">
         <thead>

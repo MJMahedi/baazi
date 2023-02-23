@@ -29,7 +29,7 @@ const Masteragent = () => {
   return (
     <TotalBox>
 
-      <h1 className="text-center">Mater Agent</h1>
+      <h1 className="text-center bg-dark text-white-50">Master Agent</h1>
 
       <Table striped bordered hover variant="dark" size="sm">
         <thead>

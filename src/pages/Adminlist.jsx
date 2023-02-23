@@ -31,7 +31,7 @@ const Adminlist = () => {
   return (
     <TotalBox>
 
-      <h1 className="text-center">Admin List  </h1>
+      <h1 className="text-center bg-dark text-white-50">Admin List  </h1>
 
       <Table striped bordered hover variant="dark" size="sm">
         <thead>
