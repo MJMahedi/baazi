@@ -7,15 +7,12 @@ import Marquee from "react-fast-marquee";
 
 
 
-const Bodybox = styled.div`
-    margin-top: 10px;
+const Bodybox = styled.div`   
     margin-left: auto;
     margin-right: auto;
     width: 790px;
     padding-left: 0px;
     padding-right: 0px;
-    
-
 `;
 
 const BannerImg = styled.div`
@@ -23,10 +20,8 @@ const BannerImg = styled.div`
 `;
 const Menu = styled.nav`
 background-color: #212529;
-   /* color: #FFF; */
-    height: 45px;
-    padding-left: 18px;
-    border-radius: 0px;
+border: 5px solid white;
+border-radius: 7px;
 
 `;
 const Navbar = styled.div`
@@ -45,17 +40,17 @@ const Header = () => {
       <BannerImg>
         <img src={banner} alt="banner" width="100%" />
       </BannerImg>
-      <Marquee 
-      style={{
-        background:"yellow" ,
-         height:"50px" , 
-          }}> 
-          Full premium Site For Casino Lovers www.winx365.info এ যারএজেন্ট নিয়ে কাজ করতে চান তারা এডমিন অথবা সুপার এজেন্টদের সাথে যোগাযোগ করুন।
+      <Marquee
+        style={{
+          background: "yellow",
+          height: "50px",
+        }}>
+        Full premium Site For Casino Lovers www.winx365.info এ যারএজেন্ট নিয়ে কাজ করতে চান তারা এডমিন অথবা সুপার এজেন্টদের সাথে যোগাযোগ করুন।
       </Marquee>
-   
+
       <div class="menubar">
         <Menu>
-          <Navbar>
+          <Navbar >
 
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Home">হোম</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="CustomerService">কাস্টমার সার্ভিস</a></ul>
@@ -65,7 +60,6 @@ const Header = () => {
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Masteragent">মাস্টার এজেন্ট</a></ul>
           </Navbar>
           <Bannerbox>
-
           </Bannerbox>
         </Menu>
 

@@ -14,14 +14,14 @@ display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-
-margin-top: 10px;
+    border: 5px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 790px;
     padding-left: 0px;
     padding-right: 0px;
-
 `
 
 
@@ -36,11 +36,11 @@ const Adminlist = () => {
       <Table striped bordered hover variant="dark" size="sm">
         <thead>
           <tr>
-            <th style={{width:"10%", alignItems:"center"}}>#</th>
-            <th style={{width:"27%",}}>Name</th>
-            <th className="justify-content-md-center" style={{width:"10%",}}>Social Media</th>
-            <th style={{width:"27%",}}>Phone Number</th>
-            <th style={{width:"27%",}}>Complain</th>
+            <th style={{ width: "10%", alignItems: "center" }}>#</th>
+            <th style={{ width: "27%", }}>Name</th>
+            <th className="justify-content-md-center" style={{ width: "10%", }}>Social Media</th>
+            <th style={{ width: "27%", }}>Phone Number</th>
+            <th style={{ width: "27%", }}>Complain</th>
 
           </tr>
         </thead>
@@ -49,17 +49,12 @@ const Adminlist = () => {
             <td>1</td>
             <td>Mark </td>
             <td>
-              <Icon>    
-             <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-             <FontAwesomeIcon  icon={faFacebook} />
-             </a>
-
-            
-
-             <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-
-           
-                <FontAwesomeIcon icon={faWhatsapp} />
+              <Icon>
+                <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+                <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                  <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </Icon>
             </td>
@@ -69,35 +64,71 @@ const Adminlist = () => {
           <tr>
             <td>2</td>
             <td>Jacob</td>
-            <td>Thornton</td>
+            <td><Icon>
+              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </Icon></td>
             <td>@fat</td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>3</td>
-            <td colSpan={2}>Larry the Bird</td>
-            <td>@twitter</td>
+            <td >Larry the Bird</td>
+            <td><Icon>
+              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </Icon></td>
+            <td>01753258523</td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>4</td>
             <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
+            <td ><Icon>
+              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </Icon></td>
+            <td>01753258523</td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>5</td>
             <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
+            <td ><Icon>
+              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </Icon></td>
             <td>@twitter</td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>6</td>
             <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
+            <td ><Icon>
+              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+            </Icon></td>
+            <td>01753258523</td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>

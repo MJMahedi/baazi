@@ -5,29 +5,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-const CategoryName = styled.div`
- display: center;
- background: red;
-`;
+
 const Icon = styled.div`
 display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-
-margin-top: 10px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 790px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px;   
+    border: 5px solid white;
+    border-radius: 7px;
 
 `
 const Notice = styled.div`
-border: solid red 2px;
+border: 5px solid white;
+border-radius: 7px;
 background: #212529;
 color:white;
 `;
+const Mainbox = styled.div``;
 
 
 
@@ -35,10 +35,10 @@ color:white;
 
 const Customerservice = () => {
   return (
+    
     <TotalBox>
-
+     
       <h1 className="text-center bg-dark text-white-50">Customer Service</h1>
-
       <Table striped bordered hover variant="dark" size="sm">
         <thead>
           <tr>
@@ -58,13 +58,8 @@ const Customerservice = () => {
               <Icon>    
              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
              <FontAwesomeIcon  icon={faFacebook} />
-             </a>
-
-            
-
-             <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-
-           
+             </a>          
+             <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >           
                 <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </Icon>
@@ -73,25 +68,36 @@ const Customerservice = () => {
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>1</td>
+            <td>Mark </td>
+            <td>
+              <Icon>    
+             <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+             <FontAwesomeIcon  icon={faFacebook} />
+             </a>          
+             <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >           
+                <FontAwesomeIcon icon={faWhatsapp} />
+                </a>
+              </Icon>
+            </td>
+            <td>+001753258523</td>
             <th><Button>Complain</Button></th>
-          </tr>        
+          </tr>
+                 
         </tbody>
         
         
        
 
       </Table>
-      <Notice variant="dark">
+
+    <Notice variant="dark">
         <h1>নোটিশঃ</h1>
         <p >কাষ্টমার সার্ভিস এর কাউকেই আপনার পাসওয়ার্ড দিবেন না। শুধু আপনার http://winx365.live এর ইউজার নেম দিবেন – যদি প্রয়োজন হয়। *** স্বাধারন তথ্য জানার জন্য “CUSTOMER SERVICE“ এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** বেট বিষয়ক তথ্য জানার জন্য “TEAM LEADER” এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** পয়েন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** এজেন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। </p>
 
       </Notice>
-      
-    </TotalBox>
+     
+      </TotalBox>
   )
 }
 

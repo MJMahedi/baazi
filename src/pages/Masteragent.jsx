@@ -22,6 +22,8 @@ margin-top: 10px;
     width: 790px;
     padding-left: 0px;
     padding-right: 0px;
+    border: 5px solid white;
+    border-radius: 7px;
 
 `
 

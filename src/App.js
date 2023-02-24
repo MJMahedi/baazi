@@ -9,15 +9,21 @@ import Subadminlist from './pages/Subadminlist';
 import Superagent from './pages/Superagent';
 import Masteragent from './pages/Masteragent';
 import Footer from './pages/Footer';
+import styled from 'styled-components';
+
+const WholeBody = styled.div`
+ background: #05090a;
+`
 
 
 function App() {
   return (
-    <div>
+    <WholeBody>
     
       <Header></Header>
       <Routes>
         <Route path='/Home' element={<Home></Home>}></Route>
+        <Route path='/' element={<Home></Home>}></Route>
         <Route path='/CustomerService' element={<Customerservice></Customerservice>}></Route>
         <Route path='/Adminlist' element={<Adminlist></Adminlist>}></Route>
         <Route path='/Subadminlist' element={<Subadminlist></Subadminlist>}></Route>
@@ -27,7 +33,7 @@ function App() {
       </Routes>
       <Footer></Footer>
 
-    </div>
+    </WholeBody>
     
   );
 }

@@ -14,19 +14,15 @@ display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-
-margin-top: 10px;
+    border: 5px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 790px;
     padding-left: 0px;
     padding-right: 0px;
-
 `
-
-
-
-
 
 
 const Superagent = () => {
