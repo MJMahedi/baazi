@@ -22,13 +22,13 @@ function App() {
     
       <Header></Header>
       <Routes>
-        <Route path='/Home' element={<Home></Home>}></Route>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/CustomerService' element={<Customerservice></Customerservice>}></Route>
-        <Route path='/Adminlist' element={<Adminlist></Adminlist>}></Route>
-        <Route path='/Subadminlist' element={<Subadminlist></Subadminlist>}></Route>
-        <Route path='/Superagent' element={<Superagent></Superagent>}></Route>
-        <Route path='/Masteragent' element = {<Masteragent></Masteragent>}></Route>
+        <Route path='/baazi/Home' element={<Home></Home>}></Route>
+        <Route path='/baazi' element={<Home></Home>}></Route>
+        <Route path='/baazi/CustomerService' element={<Customerservice></Customerservice>}></Route>
+        <Route path='/baazi/Adminlist' element={<Adminlist></Adminlist>}></Route>
+        <Route path='/baazi/Subadminlist' element={<Subadminlist></Subadminlist>}></Route>
+        <Route path='/baazi/Superagent' element={<Superagent></Superagent>}></Route>
+        <Route path='/baazi/Masteragent' element = {<Masteragent></Masteragent>}></Route>
 
       </Routes>
       <Footer></Footer>
