@@ -2,7 +2,7 @@ import Home from './pages/Home';
 import Header from './pages/Header';
 import './App.css';
 import Customerservice from './pages/Customerservice';
-import { createBrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Adminlist from './pages/Adminlist';
 import Subadminlist from './pages/Subadminlist';
 import Superagent from './pages/Superagent';
@@ -18,22 +18,22 @@ const WholeBody = styled.div`
 function App() {
   return (
     <WholeBody>
-    
+
       <Header></Header>
       <Routes>
-        <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/CustomerService' element={<Customerservice></Customerservice>}></Route>
-        <Route path='/Adminlist' element={<Adminlist></Adminlist>}></Route>
-        <Route path='/Subadminlist' element={<Subadminlist></Subadminlist>}></Route>
-        <Route path='/Superagent' element={<Superagent></Superagent>}></Route>
-        <Route path='/Masteragent' element = {<Masteragent></Masteragent>}></Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/CustomerService' element={<Customerservice />} />
+        <Route path='/Adminlist' element={<Adminlist />} />
+        <Route path='/Subadminlist' element={<Subadminlist />} />
+        <Route path='/Superagent' element={<Superagent />} />
+        <Route path='/Masteragent' element={<Masteragent />} />
 
       </Routes>
       <Footer></Footer>
 
     </WholeBody>
-    
+
   );
 }
 

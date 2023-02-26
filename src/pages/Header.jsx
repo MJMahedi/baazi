@@ -52,7 +52,8 @@ const Header = () => {
         <Menu>
           <Navbar >
 
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="home">হোম</a></ul>
+           {/*  <ul><a style={{ color: "white", textDecoration: "none" }} href="home">হোম</a></ul> */}
+           <Link to='/'>Home</Link>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="CustomerService">কাস্টমার সার্ভিস</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Adminlist">এডমিন</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Subadminlist">সাব এডমিন</a></ul>
