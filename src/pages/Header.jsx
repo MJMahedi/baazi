@@ -51,14 +51,20 @@ const Header = () => {
       <div class="menubar">
         <Menu>
           <Navbar >
+          <Link to='/home'>হোম</Link>
+           <Link to='/CustomerService'>কাস্টমার সার্ভিস</Link>
+           <Link to='/Adminlist'>এডমিন</Link>
+           <Link to='/Subadminlist'>সাব এডমিন</Link>
+           <Link to='/Superagent'>সুপার এজেন্ট</Link>
+           <Link to='/Masteragent'>মাস্টার এজেন্ট</Link>
 
-           {/*  <ul><a style={{ color: "white", textDecoration: "none" }} href="home">হোম</a></ul> */}
-           <Link to='/'>Home</Link>
+           {/*  <ul><a style={{ color: "white", textDecoration: "none" }} href="home">হোম</a></ul>     
             <ul><a style={{ color: "white", textDecoration: "none" }} href="CustomerService">কাস্টমার সার্ভিস</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Adminlist">এডমিন</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Subadminlist">সাব এডমিন</a></ul>
             <ul><a style={{ color: "white", textDecoration: "none" }} href="Superagent">সুপার এজেন্ট</a></ul>
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="Masteragent">মাস্টার এজেন্ট</a></ul>
+            <ul><a style={{ color: "white", textDecoration: "none" }} href="Masteragent">মাস্টার এজেন্ট</a></ul>*/}
+            
           </Navbar>
           <Bannerbox>
           </Bannerbox>
