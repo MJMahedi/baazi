@@ -21,7 +21,7 @@ function App() {
     
       <Header></Header>
       <Routes>
-        <Route path='/Home' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/CustomerService' element={<Customerservice></Customerservice>}></Route>
         <Route path='/Adminlist' element={<Adminlist></Adminlist>}></Route>
