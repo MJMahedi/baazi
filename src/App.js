@@ -25,6 +25,7 @@ function App() {
         
 
         <Route path='/' element={<Home />} />
+        <Route path='/baazi' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/CustomerService' element={<Customerservice />} />
         <Route path='/Adminlist' element={<Adminlist />} />
