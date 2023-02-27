@@ -2,7 +2,7 @@ import React from 'react'
 import { Table, Button } from 'react-bootstrap'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import {mobile , Desktop} from './Responsive';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -15,7 +15,11 @@ margin-top:10px;
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 50px;
-    padding-right: 50px; `
+    padding-right: 50px; 
+    
+    ${mobile({margin:0 , padding: 0})},
+    `;
+
 const Notice = styled.div`
 border: 5px solid white;
 border-radius: 7px;
@@ -36,7 +40,8 @@ const Customerservice = () => {
   return (
 
     <TotalBox>
-     <h1 className="text-center bg-dark" style={{color: "white" , border:"5px solid white" , borderBlockColor:"green"  , marginTop:"10px"}}>Customer Service</h1>
+     <h1 className="text-center bg-dark" style={{color: "white" , border:"5px solid white" , borderBlockColor:"green"  , marginTop:"10px" ,
+     }}>Customer Service</h1>
       <SemiBox>       
         <Table striped bordered hover variant="dark" size="sm">
           <thead>

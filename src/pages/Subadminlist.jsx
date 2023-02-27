@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import {mobile, desktop} from './Responsive';
 
 const CategoryName = styled.div`
  display: center;
@@ -21,6 +22,7 @@ const TotalBox = styled.div`
    /* width: 790px; */
     padding-left: 50px;
     padding-right: 50px;
+    ${mobile({margin:0 , padding: 0})},
 
 `
 

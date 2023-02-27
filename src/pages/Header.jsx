@@ -2,8 +2,8 @@ import React from 'react'
 import banner from '/project/baazi/src/pages/banner.jpg'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-/*  import './marquee.css';  */
 import Marquee from "react-fast-marquee";
+import { mobile, Tablet, Desktop } from './Responsive';
 
 
 
@@ -13,6 +13,8 @@ const Bodybox = styled.div`
    /* width: 790px; */
     padding-left: 50px;
     padding-right: 50px;
+    ${mobile({ margin:"0" , padding: 0 , })};
+    
 `;
 
 const BannerImg = styled.div`
@@ -24,17 +26,21 @@ border: 3px solid orange;
 border-radius: 7px;
 margin-top:10px;
 height:45px;
+${mobile({backgroundColor:"green" , height:"55px"})};
 
 `;
 const Navbar = styled.ul`
 display: flex;
 justify-content: space-around;
 text-decoration: none;
+${mobile({display:"flex" , flexWrap: "wrap",})};
+
 `;
 const linkStyle = {
   textDecoration: "none",
   color: "white",
   fontWeight: "bold",
+  fontSize: 16,
   
 };
 const Bannerbox = styled.div`

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { mobile , Desktop  } from './Responsive';
 
 const Footerbody = styled.div`
     margin-top: 10px;
@@ -15,6 +16,7 @@ const Footerbody = styled.div`
     border: 5px solid orange;
     border-radius: 15px;
     box-shadow: 10px 10px dark;
+    ${mobile({ margin:0 , padding: 0 , width:"380px"})};
 `;
 
 

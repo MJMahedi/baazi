@@ -1,6 +1,7 @@
 import React from 'react'
 import Rule from '/project/baazi/src/pages/Rule.jpg'
 import styled from 'styled-components';
+import { mobile , Tablet , Desktop } from './Responsive';
 
 
 const Bodybox = styled.div`
@@ -9,6 +10,7 @@ const Bodybox = styled.div`
    /* width: 790px; */
     padding-left: 50px;
     padding-right: 50px;
+    ${mobile({margin: 0 , padding: 0,})};
 
 `;
 
