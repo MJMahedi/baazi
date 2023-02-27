@@ -15,15 +15,11 @@ display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-
-margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 790px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border: 5px solid white;
-    border-radius: 7px;
+margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 
 `
 
@@ -31,16 +27,16 @@ const Masteragent = () => {
   return (
     <TotalBox>
 
-      <h1 className="text-center bg-dark text-white-50">Master Agent</h1>
+      <h1 className="text-center bg-dark " style={{ color: "white", border: "5px solid white", borderBlockColor: "green", marginTop: "10px" }}>Master Agent</h1>
 
-      <Table striped bordered hover variant="dark" size="sm">
+      <Table striped bordered hover variant="dark" size="sm" style={{ border: "5px solid white", borderBlockColor: "green", marginTop: "10px" }}>
         <thead>
           <tr>
-            <th style={{width:"10%", alignItems:"center"}}>#</th>
-            <th style={{width:"27%",}}>Name</th>
-            <th className="justify-content-md-center" style={{width:"10%",}}>Social Media</th>
-            <th style={{width:"27%",}}>Phone Number</th>
-            <th style={{width:"27%",}}>Complain</th>
+            <th style={{ width: "10%", alignItems: "center" }}>#</th>
+            <th style={{ width: "27%", }}>Name</th>
+            <th className="justify-content-md-center" style={{ width: "10%", }}>Social Media</th>
+            <th style={{ width: "27%", }}>Phone Number</th>
+            <th style={{ width: "27%", }}>Complain</th>
 
           </tr>
         </thead>
@@ -49,17 +45,17 @@ const Masteragent = () => {
             <td>1</td>
             <td>Mark </td>
             <td>
-              <Icon>    
-             <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-             <FontAwesomeIcon  icon={faFacebook} />
-             </a>
+              <Icon>
+                <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
 
-            
 
-             <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
 
-           
-                <FontAwesomeIcon icon={faWhatsapp} />
+                <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+
+
+                  <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </Icon>
             </td>
@@ -75,7 +71,8 @@ const Masteragent = () => {
           </tr>
           <tr>
             <td>3</td>
-            <td colSpan={2}>Larry the Bird</td>
+            <td >Larry the Bird</td>
+            <td >Larry the Bird</td>
             <td>@twitter</td>
             <th><Button>Complain</Button></th>
           </tr>

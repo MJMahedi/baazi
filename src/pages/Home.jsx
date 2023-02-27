@@ -4,12 +4,11 @@ import styled from 'styled-components';
 
 
 const Bodybox = styled.div`
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 790px;
-    padding-left: 0px;
-    padding-right: 0px;
+     margin-left: 50px;
+    margin-right: 50px;
+   /* width: 790px; */
+    padding-left: 50px;
+    padding-right: 50px;
 
 `;
 

@@ -14,26 +14,22 @@ display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-    border: 5px solid white;
-    border-radius: 7px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 790px;
-    padding-left: 0px;
-    padding-right: 0px;
+   
+    margin-left: 50px;
+    margin-right: 50px;
+   /* width: 790px; */
+    padding-left: 50px;
+    padding-right: 50px;
 `
-
-
 
 
 const Adminlist = () => {
   return (
     <TotalBox>
 
-      <h1 className="text-center bg-dark text-white-50">Admin List  </h1>
+      <h1 className="text-center bg-dark" style={{color: "white" , border:"5px solid white" , borderBlockColor:"green"  , marginTop:"10px"}}>Admin List  </h1>
 
-      <Table striped bordered hover variant="dark" size="sm">
+      <Table striped bordered hover variant="dark" size="sm" style={{border:"5px solid white" ,borderBlockColor:"green"}}>
         <thead>
           <tr>
             <th style={{ width: "10%", alignItems: "center" }}>#</th>

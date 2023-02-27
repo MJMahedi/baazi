@@ -8,11 +8,11 @@ import Marquee from "react-fast-marquee";
 
 
 const Bodybox = styled.div`   
-    margin-left: auto;
-    margin-right: auto;
-    width: 790px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+   /* width: 790px; */
+    padding-left: 50px;
+    padding-right: 50px;
 `;
 
 const BannerImg = styled.div`
@@ -20,15 +20,23 @@ const BannerImg = styled.div`
 `;
 const Menu = styled.nav`
 background-color: #212529;
-border: 5px solid white;
+border: 3px solid orange;
 border-radius: 7px;
+margin-top:10px;
+height:45px;
 
 `;
-const Navbar = styled.div`
+const Navbar = styled.ul`
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 text-decoration: none;
 `;
+const linkStyle = {
+  textDecoration: "none",
+  color: "white",
+  fontWeight: "bold",
+  
+};
 const Bannerbox = styled.div`
 `;
 
@@ -51,20 +59,12 @@ const Header = () => {
       <div class="menubar">
         <Menu>
           <Navbar >
-          <Link to='/home'>হোম</Link>
-           <Link to='/CustomerService'>কাস্টমার সার্ভিস</Link>
-           <Link to='/Adminlist'>এডমিন</Link>
-           <Link to='/Subadminlist'>সাব এডমিন</Link>
-           <Link to='/Superagent'>সুপার এজেন্ট</Link>
-           <Link to='/Masteragent'>মাস্টার এজেন্ট</Link>
-
-           {/*  <ul><a style={{ color: "white", textDecoration: "none" }} href="home">হোম</a></ul>     
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="CustomerService">কাস্টমার সার্ভিস</a></ul>
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="Adminlist">এডমিন</a></ul>
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="Subadminlist">সাব এডমিন</a></ul>
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="Superagent">সুপার এজেন্ট</a></ul>
-            <ul><a style={{ color: "white", textDecoration: "none" }} href="Masteragent">মাস্টার এজেন্ট</a></ul>*/}
-            
+            <Link to='/home' style={linkStyle}>হোম</Link>
+            <Link to='/CustomerService' style={linkStyle}>কাস্টমার সার্ভিস</Link>
+            <Link to='/Adminlist' style={linkStyle}>এডমিন</Link>
+            <Link to='/Subadminlist' style={linkStyle}>সাব এডমিন</Link>
+            <Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link>
+            <Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link>
           </Navbar>
           <Bannerbox>
           </Bannerbox>
