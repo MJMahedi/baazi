@@ -7,6 +7,7 @@ import { mobile, Tablet, Desktop } from './Responsive';
 
 
 
+
 const Bodybox = styled.div`   
     margin-left: 50px;
     margin-right: 50px;
@@ -77,6 +78,7 @@ const Header = () => {
         </Menu>
 
       </div>
+      
 
     </Bodybox>
   )
