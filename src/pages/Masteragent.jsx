@@ -1,9 +1,8 @@
 import React from 'react'
-import { mobile , desktop } from './Responsive';
+import { mobile , tablet ,desktop } from './Responsive';
 import { Table, Button } from 'react-bootstrap'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const CategoryName = styled.div`
@@ -19,7 +18,8 @@ margin-left: 50px;
     margin-right: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    ${mobile({margin:0 , padding: 0})},
+    ${mobile({margin:0 , padding: 0})};
+    ${tablet({margin:0 , padding: 0})};
     
 
 `

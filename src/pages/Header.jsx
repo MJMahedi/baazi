@@ -3,7 +3,7 @@ import banner from '/project/baazi/src/pages/banner.jpg'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
-import { mobile, Tablet, Desktop } from './Responsive';
+import { mobile, Tablet, Desktop, tablet } from './Responsive';
 
 
 
@@ -15,6 +15,7 @@ const Bodybox = styled.div`
     padding-left: 50px;
     padding-right: 50px;
     ${mobile({ margin:"0" , padding: 0 , })};
+    ${tablet({ margin:"0" , padding: 0 , })};
     
 `;
 
@@ -28,6 +29,7 @@ border-radius: 7px;
 margin-top:10px;
 height:45px;
 ${mobile({backgroundColor:"green" , height:"55px"})};
+${tablet({backgroundColor:"green" , height:"55px"})};
 
 `;
 const Navbar = styled.ul`
@@ -35,6 +37,7 @@ display: flex;
 justify-content: space-around;
 text-decoration: none;
 ${mobile({display:"flex" , flexWrap: "wrap",})};
+${tablet({display:"flex" , flexWrap: "wrap",})};
 
 `;
 const linkStyle = {

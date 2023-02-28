@@ -2,7 +2,7 @@ import React from 'react'
 import { Table, Button } from 'react-bootstrap'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {mobile , Desktop} from './Responsive';
+import {mobile ,tablet ,desktop} from './Responsive';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -11,13 +11,14 @@ display: flex;
 justify-content: space-around;
 `
 const TotalBox = styled.div`
-margin-top:10px;
+    margin-top:10px;
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 50px;
     padding-right: 50px; 
     
-    ${mobile({margin:0 , padding: 0})},
+    ${mobile({margin:0 , padding: 0})};
+    ${tablet({margin:0 , padding: 0})};
     `;
 
 const Notice = styled.div`

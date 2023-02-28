@@ -1,7 +1,7 @@
 import React from 'react'
 import Rule from '/project/baazi/src/pages/Rule.jpg'
 import styled from 'styled-components';
-import { mobile , Tablet , Desktop } from './Responsive';
+import { mobile , tablet , desktop } from './Responsive';
 
 
 const Bodybox = styled.div`
@@ -11,6 +11,7 @@ const Bodybox = styled.div`
     padding-left: 50px;
     padding-right: 50px;
     ${mobile({margin: 0 , padding: 0,})};
+    ${tablet({margin: 0, padding: 0,})};
 
 `;
 
@@ -35,7 +36,9 @@ background: #05090a;
 border: 5px solid orange;
 border-radius: 15px;
 margin-top: 10px;
+
 `;
+
 const Div2 = styled(Div1)`
 `;
 const Div3 = styled(Div1)`

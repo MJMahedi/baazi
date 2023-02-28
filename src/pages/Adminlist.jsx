@@ -2,7 +2,7 @@ import React from 'react'
 import { Table, Button } from 'react-bootstrap'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { mobile , desktop } from './Responsive';
+import { mobile ,tablet, desktop } from './Responsive';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const CategoryName = styled.div`
@@ -20,7 +20,8 @@ const TotalBox = styled.div`
    /* width: 790px; */
     padding-left: 50px;
     padding-right: 50px;
-    ${mobile({margin:2 , padding: 0})},
+    ${mobile({margin:0 , padding: 0})};
+    ${tablet({margin:0 , padding: 0})};
 
 `
 
