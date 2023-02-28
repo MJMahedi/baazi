@@ -37,7 +37,9 @@ display: flex;
 justify-content: space-around;
 text-decoration: none;
 ${mobile({display:"flex" , flexWrap: "wrap",})};
-${tablet({display:"flex" , flexWrap: "wrap",})};
+${tablet({display:"flex" , flexWrap: "wrap",justifyContent: "spaceAround"
+
+})};
 
 `;
 const linkStyle = {
