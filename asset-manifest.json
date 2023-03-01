@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/baazi/static/css/main.756af292.css",
-    "main.js": "/baazi/static/js/main.7e785b09.js",
-    "static/js/787.94163ca2.chunk.js": "/baazi/static/js/787.94163ca2.chunk.js",
-    "static/media/Rule.jpg": "/baazi/static/media/Rule.a4c99ebe7ad36f930473.jpg",
-    "static/media/banner.jpg": "/baazi/static/media/banner.744352ce301c382632b6.jpg",
-    "index.html": "/baazi/index.html",
-    "main.756af292.css.map": "/baazi/static/css/main.756af292.css.map",
-    "main.7e785b09.js.map": "/baazi/static/js/main.7e785b09.js.map",
-    "787.94163ca2.chunk.js.map": "/baazi/static/js/787.94163ca2.chunk.js.map"
+    "main.css": "/static/css/main.756af292.css",
+    "main.js": "/static/js/main.4f5bf20b.js",
+    "static/js/787.94163ca2.chunk.js": "/static/js/787.94163ca2.chunk.js",
+    "static/media/Rule.jpg": "/static/media/Rule.a4c99ebe7ad36f930473.jpg",
+    "static/media/banner.jpg": "/static/media/banner.744352ce301c382632b6.jpg",
+    "index.html": "/index.html",
+    "main.756af292.css.map": "/static/css/main.756af292.css.map",
+    "main.4f5bf20b.js.map": "/static/js/main.4f5bf20b.js.map",
+    "787.94163ca2.chunk.js.map": "/static/js/787.94163ca2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.756af292.css",
-    "static/js/main.7e785b09.js"
+    "static/js/main.4f5bf20b.js"
   ]
 }
