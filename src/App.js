@@ -13,8 +13,6 @@ import styled from 'styled-components';
 const WholeBody = styled.div`
  background: #05090a;
 `
-/*  <Route path='' element={<Home />} />  */
-
 
 function App() {
   return (
@@ -22,8 +20,6 @@ function App() {
 
       <Header></Header>
       <Routes>
-        
-
         <Route path='/' element={<Home />} />
         <Route path='/baazi' element={<Home />} />
         <Route path='/home' element={<Home />} />
