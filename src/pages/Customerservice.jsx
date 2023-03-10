@@ -2,7 +2,7 @@ import React from 'react'
 import { Table, Button } from 'react-bootstrap'
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {mobile ,tablet ,desktop} from './Responsive';
+import { mobile, tablet, desktop } from './Responsive';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -17,8 +17,8 @@ const TotalBox = styled.div`
     padding-left: 50px;
     padding-right: 50px; 
     
-    ${mobile({margin:0 , padding: 0})};
-    ${tablet({margin:0 , padding: 0})};
+    ${mobile({ margin: 0, padding: 0 })};
+    ${tablet({ margin: 0, padding: 0 })};
     `;
 
 const Notice = styled.div`
@@ -41,9 +41,10 @@ const Customerservice = () => {
   return (
 
     <TotalBox>
-     <h1 className="text-center bg-dark" style={{color: "white" , border:"5px solid white" , borderBlockColor:"green"  , marginTop:"10px" ,
-     }}>Customer Service</h1>
-      <SemiBox>       
+      <h1 className="text-center bg-dark" style={{
+        color: "white", border: "5px solid white", borderBlockColor: "green", marginTop: "10px",
+      }}>Customer Service</h1>
+      <SemiBox>
         <Table striped bordered hover variant="dark" size="sm">
           <thead>
             <tr>
@@ -58,7 +59,7 @@ const Customerservice = () => {
           <tbody>
             <tr>
               <td>1</td>
-              <td>Mark </td>
+              <td>Admin </td>
               <td>
                 <Icon>
                   <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
@@ -69,12 +70,12 @@ const Customerservice = () => {
                   </a>
                 </Icon>
               </td>
-              <td>+001753258523</td>
+              <td>+1 504 5345030 </td>
               <th><Button>Complain</Button></th>
             </tr>
             <tr>
-              <td>1</td>
-              <td>Mark </td>
+              <td>2</td>
+              <td>Super Agent </td>
               <td>
                 <Icon>
                   <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
@@ -85,7 +86,7 @@ const Customerservice = () => {
                   </a>
                 </Icon>
               </td>
-              <td>+001753258523</td>
+              <td>+1 854 203-2027 </td>
               <th><Button>Complain</Button></th>
             </tr>
 
@@ -98,7 +99,7 @@ const Customerservice = () => {
       </SemiBox>
       <Notice variant="dark" >
         <h1>নোটিশঃ</h1>
-        <p >কাষ্টমার সার্ভিস এর কাউকেই আপনার পাসওয়ার্ড দিবেন না। শুধু আপনার www.bigbazzi.xyz এর ইউজার নেম দিবেন – যদি প্রয়োজন হয়। *** স্বাধারন তথ্য জানার জন্য “CUSTOMER SERVICE“ এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** বেট বিষয়ক তথ্য জানার জন্য “TEAM LEADER” এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** পয়েন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** এজেন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। </p>
+        <p >কাষ্টমার সার্ভিস এর কাউকেই আপনার পাসওয়ার্ড দিবেন না। শুধু আপনার www.winx365.live এর ইউজার নেম দিবেন – যদি প্রয়োজন হয়। *** স্বাধারন তথ্য জানার জন্য “CUSTOMER SERVICE“ এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** বেট বিষয়ক তথ্য জানার জন্য “TEAM LEADER” এর সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** পয়েন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। *** এজেন্ট স্বম্পর্কিত কোন অভিযোগ এর জন্য “ADMIN” সাথে যোগাযোগ করার জন্য অনুরোধ করা হল। </p>
 
       </Notice>
 

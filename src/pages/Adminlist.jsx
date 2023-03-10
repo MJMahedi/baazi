@@ -25,7 +25,6 @@ const TotalBox = styled.div`
 
 `
 
-
 const Adminlist = () => {
   return (
     <TotalBox>
@@ -44,25 +43,26 @@ const Adminlist = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+        <tr>
             <td>1</td>
-            <td>Mark </td>
+            <td>Ariyan </td>
             <td>
               <Icon>
                 <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
                 <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </Icon>
             </td>
-            <td>+001753258523</td>
+            <td>+1 504 5345030 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>2</td>
-            <td>Jacob</td>
+            <td>Shunam</td>
             <td><Icon>
               <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
@@ -71,12 +71,12 @@ const Adminlist = () => {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>@fat</td>
+            <td>+1 504 5345040 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>3</td>
-            <td >Larry the Bird</td>
+            <td>Roktim</td>
             <td><Icon>
               <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
@@ -85,79 +85,36 @@ const Adminlist = () => {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>01753258523</td>
+            <td>+1 504 5345060 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>4</td>
-            <td >Larry the Bird</td>
-            <td ><Icon>
-              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </Icon></td>
-            <td>01753258523</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>5</td>
-            <td >Larry the Bird</td>
-            <td ><Icon>
-              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </Icon></td>
-            <td>@twitter</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>6</td>
-            <td >Larry the Bird</td>
-            <td ><Icon>
-              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </Icon></td>
-            <td>01753258523</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>7</td>
-            <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>8</td>
-            <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
-          <tr>
-            <td>9</td>
-            <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
-            <th><Button>Complain</Button></th>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td >Larry the Bird</td>
-            <td >Larry the Bird</td>
-            <td>@twitter</td>
-            <th><Button>Complain</Button></th>
-          </tr>
+          
+          
         </tbody>
       </Table>
     </TotalBox>

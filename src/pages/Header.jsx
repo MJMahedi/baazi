@@ -59,7 +59,7 @@ const Header = () => {
           background: "yellow",
           height: "50px",
         }}>
-        www.bigbazzi.xyz -Full premium Site For Casino Lovers এ যারএজেন্ট নিয়ে কাজ করতে চান তারা এডমিন অথবা সুপার এজেন্টদের সাথে যোগাযোগ করুন।
+        www.winx365.live -Full premium Site For Casino Lovers এ এজেন্ট নিয়ে কাজ করতে চান তারা এডমিন অথবা সুপার এজেন্টদের সাথে যোগাযোগ করুন।
       </Marquee>
 
       <div class="menubar">
