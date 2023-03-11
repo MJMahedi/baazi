@@ -15,7 +15,7 @@ const WholeBody = styled.div`
 
 function App() {
   return (
-    <WholeBody style={{backgroundColor:"white"}}>
+    <WholeBody >
 
       <Header></Header>
       <Routes>
