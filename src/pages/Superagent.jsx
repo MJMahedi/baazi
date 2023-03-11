@@ -48,10 +48,10 @@ const Superagent = () => {
             <td>Hasnat </td>
             <td>
               <Icon>
-                <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                <a href="https://www.facebook.com/" target="_blank">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
-                <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
 
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
@@ -64,15 +64,15 @@ const Superagent = () => {
             <td>2</td>
             <td>Ariyan</td>
             <td><Icon>
-              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+              <a href="https://www.facebook.com/" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+              <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
 
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>+1 504 5345030 </td>
+            <td>+1 854 203-2027 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
@@ -87,7 +87,7 @@ const Superagent = () => {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>+1 504 5345040 </td>
+            <td>+1 854 203-2027 </td>
             <th><Button>Complain</Button></th>
           </tr>
           

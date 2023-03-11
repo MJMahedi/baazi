@@ -62,10 +62,10 @@ const Customerservice = () => {
               <td>Admin </td>
               <td>
                 <Icon>
-                  <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
+                  <a href="https://www.facebook.com/" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
-                  <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                  <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>
                 </Icon>
@@ -81,7 +81,7 @@ const Customerservice = () => {
                   <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
-                  <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
+                  <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>
                 </Icon>
