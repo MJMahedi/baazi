@@ -76,18 +76,8 @@ const Superagent = () => {
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Mahmud</td>
-            <td><Icon>
-              <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="https://wa.me/message/ASQCOISCNBUGH1" target="_blank" width="39" height="36" >
-
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </Icon></td>
-            <td>+1 854 203-2027 </td>
+            <td>4</td>
+            <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>
           
