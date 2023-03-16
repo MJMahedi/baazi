@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 import { mobile, tablet } from './Responsive';
+import { Button } from 'react-bootstrap';
 
 
 const Bodybox = styled.div`   
@@ -65,11 +66,18 @@ const Header = () => {
       <div class="menubar">
         <Menu>
           <Navbar >
-            <Link to='/home' style={linkStyle}>হোম  </Link>
-            <Link to='/CustomerService' style={linkStyle}>কাস্টমার সার্ভিস</Link>
-            <Link to='/Adminlist' style={linkStyle}>এডমিন</Link>
-            <Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link>
-            <Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link>
+            
+            <Button><Link to='/home' style={linkStyle}>হোম  </Link></Button>
+            <Button> <Link to='/CustomerService' style={linkStyle}>কাস্টমার সার্ভিস</Link> </Button>
+            <Button><Link to='/Adminlist' style={linkStyle}>এডমিন</Link></Button>
+            <Button><Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link></Button>
+            <Button><Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link></Button>
+            
+            
+            
+            
+            
+            
           </Navbar>
           <Bannerbox>
           </Bannerbox>
