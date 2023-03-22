@@ -48,7 +48,7 @@ const Superagent = () => {
             <td>Hasnat </td>
             <td>
               <Icon>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/bigbazzi/" target="_blank">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
                 <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
@@ -62,9 +62,9 @@ const Superagent = () => {
           </tr>
           <tr>
             <td>2</td>
-            <td>Ariyan</td>
+            <td>Shahriar</td>
             <td><Icon>
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.facebook.com/bigbazzi/" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
               <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
@@ -72,7 +72,7 @@ const Superagent = () => {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>+1 854 203-2027 </td>
+            <td>+60 19-871 4150 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
@@ -103,6 +103,11 @@ const Superagent = () => {
           </tr>
           <tr>
             <td>8</td>
+            <td colSpan={3}>Coming soon .. </td>
+            <th><Button>Complain</Button></th>
+          </tr>
+          <tr>
+            <td>9</td>
             <td colSpan={3}>Coming soon .. </td>
             <th><Button>Complain</Button></th>
           </tr>

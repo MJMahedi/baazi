@@ -59,10 +59,10 @@ const Customerservice = () => {
           <tbody>
             <tr>
               <td>1</td>
-              <td>Admin </td>
+              <td>Customer Service 1 </td>
               <td>
                 <Icon>
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a href="https://www.facebook.com/bigbazzi/" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
                   <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
@@ -74,21 +74,10 @@ const Customerservice = () => {
               <th><Button>Complain</Button></th>
             </tr>
             <tr>
-              <td>2</td>
-              <td>Super Agent </td>
-              <td>
-                <Icon>
-                  <a href="https://www.facebook.com/profile.php?id=100083466716753" target="_blank">
-                    <FontAwesomeIcon icon={faFacebook} />
-                  </a>
-                  <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
-                    <FontAwesomeIcon icon={faWhatsapp} />
-                  </a>
-                </Icon>
-              </td>
-              <td>+1 854 203-2027 </td>
-              <th><Button>Complain</Button></th>
-            </tr>
+            <td>8</td>
+            <td colSpan={4}>Coming soon .. </td>
+            <th></th>
+          </tr>
 
           </tbody>
 

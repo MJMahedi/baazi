@@ -23,16 +23,22 @@ border: 3px solid orange;
 border-radius: 7px;
 margin-top:10px;
 height:45px;
-${mobile({ backgroundColor: "green", height: "55px" })};
-${tablet({ backgroundColor: "green", height: "55px" })};
+${mobile({ backgroundColor: "green", height: "99px" })};
+${tablet({ backgroundColor: "green", 
+           height: "100px" ,
+
+
+ })};
 `;
+
 const Navbar = styled.ul`
 display: flex;
 justify-content: space-around;
 text-decoration: none;
-${mobile({ display: "flex", flexWrap: "wrap", })};
+${mobile({ display: "flex", flexWrap: "wrap", padding:"10px"})};
 ${tablet({
-  display: "flex", flexWrap: "wrap", justifyContent: "spaceAround"
+  display: "flex", flexWrap: "wrap", justifyContent: "spaceAround" ,
+ 
 
 })}; `;
 
@@ -41,7 +47,8 @@ const linkStyle = {
   textDecoration: "none",
   color: "white",
   fontWeight: "bold",
-  fontSize: 16,
+  fontSize: 12,
+  marginTop:"5px",
 
 };
 const Bannerbox = styled.div`
@@ -66,18 +73,14 @@ const Header = () => {
       <div class="menubar">
         <Menu>
           <Navbar >
-            
-            <Button><Link to='/home' style={linkStyle}>হোম  </Link></Button>
+
+            <Button ><Link to='/home' style={linkStyle}>হোম  </Link></Button>
             <Button> <Link to='/CustomerService' style={linkStyle}>কাস্টমার সার্ভিস</Link> </Button>
             <Button><Link to='/Adminlist' style={linkStyle}>এডমিন</Link></Button>
             <Button><Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link></Button>
             <Button><Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link></Button>
             
-            
-            
-            
-            
-            
+
           </Navbar>
           <Bannerbox>
           </Bannerbox>
