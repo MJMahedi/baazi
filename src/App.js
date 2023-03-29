@@ -16,7 +16,7 @@ const WholeBody = styled.div`
 
 function App() {
   return (
-    <WholeBody >
+    <WholeBody basename="/home">
 
       <Header></Header>
       <Routes>
