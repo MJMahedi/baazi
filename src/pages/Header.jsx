@@ -37,7 +37,7 @@ justify-content: space-around;
 text-decoration: none;
 ${mobile({ display: "flex", flexWrap: "wrap", padding:"10px"})};
 ${tablet({
-  display: "flex", flexWrap: "wrap", justifyContent: "spaceAround" ,
+  display: "flex", flexWrap: "wrap", justifyContent: "spaceAround" ,padding: "10px",
  
 
 })}; `;
@@ -77,8 +77,11 @@ const Header = () => {
             <Button ><Link to='/home' style={linkStyle}>হোম  </Link></Button>
             <Button> <Link to='/CustomerService' style={linkStyle}>কাস্টমার সার্ভিস</Link> </Button>
             <Button><Link to='/Adminlist' style={linkStyle}>এডমিন</Link></Button>
-            <Button><Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link></Button>
-            <Button><Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link></Button>
+            <Button><Link to='/SubAdmin' style={linkStyle}>সাব-এডমিন</Link></Button>
+            <Button className="text-center  text-white p-10"><Link to='/Superagent' style={linkStyle}>সুপার এজেন্ট</Link></Button>
+            <Button >
+            
+            <Link to='/Masteragent' style={linkStyle}>মাস্টার এজেন্ট</Link></Button>
             
 
           </Navbar>
