@@ -44,7 +44,7 @@ const Masteragent = () => {
         <tbody>
         <tr>
             <td>1</td>
-            <td>Hasnat </td>
+            <td>Jessy</td>
             <td>
               <Icon>
                 <a href="https://www.facebook.com/bigbazzi/" target="_blank">
@@ -61,22 +61,22 @@ const Masteragent = () => {
           </tr>
           <tr>
             <td>2</td>
-            <td>Shahriar</td>
+            <td>Abir kingmeker</td>
             <td><Icon>
               <a href="https://www.facebook.com/bigbazzi/" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://wa.me/message/RJ4G5J2MLGWAH1" target="_blank" width="39" height="36" >
+              <a href="https://wa.me/message/" target="_blank" width="39" height="36" >
 
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
             </Icon></td>
-            <td>+60 19-871 4150 </td>
+            <td>+1 504 5345030 </td>
             <th><Button>Complain</Button></th>
           </tr>
           <tr>
             <td>3</td>
-            <td>Ariyan</td>
+            <td>Lucas</td>
             <td><Icon>
               <a href="https://www.facebook.com/bigbazzi/" target="_blank">
                 <FontAwesomeIcon icon={faFacebook} />

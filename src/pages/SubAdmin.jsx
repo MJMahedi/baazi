@@ -45,7 +45,7 @@ const SubAdmin = () => {
         <tbody>
         <tr>
             <td>1</td>
-            <td>Ariyan </td>
+            <td>Dany</td>
             <td>
               <Icon>
                 <a href="https://www.facebook.com/bigbazzi/" target="_blank">

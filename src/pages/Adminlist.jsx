@@ -45,7 +45,7 @@ const Adminlist = () => {
         <tbody>
         <tr>
             <td>1</td>
-            <td>Ariyan </td>
+            <td>Boss </td>
             <td>
               <Icon>
                 <a href="https://www.facebook.com/bigbazzi/" target="_blank">
@@ -57,7 +57,7 @@ const Adminlist = () => {
                 </a>
               </Icon>
             </td>
-            <td>+1 504 5345030 </td>
+            <td>+60 16-921 5104 </td>
             <th><Button>Complain</Button></th>
           </tr>
           
